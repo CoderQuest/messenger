@@ -1,0 +1,114 @@
+/**** colors
+gray-background = #F6F4F8;
+
+*/
+
+/**********
+	General
+***********/
+
+.container {
+	background-color: #f5f5f5;
+	width: 30%;
+	padding: 20px 20px;
+	margin: 30px auto 0 auto;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.join-title, .room-title {
+	text-align: center;
+}
+
+
+/***************
+Join Chat box
+****************/
+form .input-label {
+	font-weight: bold;
+}
+
+.input-box {
+	width: 85%;
+	height: 37px;
+	border: 1px solid #CDCBD4;
+	border-radius: 4px;
+	margin: 10px 0 15px 0;
+	padding: 0 8px 0 8px;
+}
+
+.input-icon {
+	width: 10%;
+	height: 37px;
+	text-align: center;
+	padding-top: 1px;
+}
+
+.join-btn, .submit-btn {
+	width: 100%;
+	border: none;
+	padding: 0;
+	height: 41px;
+	border-radius: 4px;
+	color: #FFF;
+	background-color: #30A349;
+	outline: 0;
+	margin: 5px 0 20px 0;
+}
+
+.join-btn:active, .submit-btn:active {
+	background-color: #3BC95B;
+}
+
+
+/***************
+	Chat Box
+****************/
+.back-link {
+	text-decoration: none;
+	color: #3656E2;
+}
+
+.back-link:hover {
+	text-decoration: underline;
+}
+
+.messages {
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+}
+
+.messages .message {
+	min-height: 60px;
+	padding: 10px 10px;
+	border: 1px solid #E2E2E2;
+	border-bottom: none;
+	background-color: #FFF;
+	border-radius: 4px;
+}
+
+.message:last-of-type {
+	border: 1px solid #E2E2E2; 
+}
+
+.message-input-box {
+	background-color: #FFFBB1;
+}
+
+/***********
+Responsiveness
+************/
+@media only screen and (max-width: 1220px) {
+	.container {
+		width: 405px;
+	}
+}
+
+@media only screen and (min-width: 1720px) {
+	.container {
+		width: 556px;
+	}
+}

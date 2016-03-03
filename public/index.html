@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Message App</title>
+		<link rel="stylesheet" href="/css/normalize.css">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="join-title">Join Chat</h1>
+			
+			<!-- action brings the query param over to the chat.html -->
+			<form action="/chat.html">
+				<label for="name" class="input-label">Enter Your Name</label> <br>
+				<i class="fa fa-user fa-lg input-icon"></i><input type="text" name="name"  autofocus class="input-box"/> <br>
+				<label for="room" class="input-label">Enter Room Name</label> <br>
+				<i class="fa fa-sign-in fa-lg input-icon"></i><input type="text" name="room" class="input-box"/> <br>
+				<button type="submit" class='join-btn'/>
+					Join Chat <i class="fa fa-comment"></i>
+				</button>
+			</form>
+		</div>
+	</body>
+</html>
